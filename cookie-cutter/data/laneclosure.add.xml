@@ -1,0 +1,10 @@
+<additional>
+    <closedLane 
+        id="CAV-closure"
+        lane="E0_0"
+        startPos="3000"
+        endPos="4000"
+        excludeVehTypes="CAV"
+        begin="300"   
+        end="900"/>   
+</additional>

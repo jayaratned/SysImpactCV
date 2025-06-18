@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-03-01 11:53:57 by Eclipse SUMO netedit Version 1.18.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+
+    <vType id="CAV" guiShape="evehicle" carFollowModel="CACC" probability="0.2"/>
+    <vType id="HDV" guiShape="passenger" carFollowModel="Krauss" probability="0.8"/>
+
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+
+    <vTypeDistribution id="MPR" vTypes="CAV HDV"/>
+    <route id="motorway" edges="E0 E1 E2"/>
+
+    <flow id="f_0" type="MPR" begin="0.00" end="9000.00" period="exp(0.556)" route="motorway" departSpeed="avg" departLane="0"/>
+    <flow id="f_1" type="MPR" begin="0.00" end="9000.00" period="exp(0.556)" route="motorway" departSpeed="avg" departLane="1"/>
+
+</routes>
