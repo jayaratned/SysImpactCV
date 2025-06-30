@@ -151,3 +151,26 @@ To enable auto staging, run:
 ⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/collision/coll_base_14014.csv
 ⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/collision/coll_base_10333.csv
 ⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/collision/coll_attack_10333.csv
+	new:                scenarios/scenario3-rsu-spoofing/data/data_base_14014.csv
+	new:                scenarios/scenario3-rsu-spoofing/emergency/ebrake_base_14014.csv
+	new:                scenarios/scenario3-rsu-spoofing/emergency/ebrake_attack_10333.csv
+	new:                scenarios/scenario3-rsu-spoofing/data/data_base_10333.csv
+	new:                scenarios/scenario3-rsu-spoofing/data/data_attack_14014.csv
+	new:                scenarios/scenario3-rsu-spoofing/emergency/ebrake_base_10333.csv
+	new:                scenarios/scenario3-rsu-spoofing/data/data_attack_10333.csv
+	new:                scenarios/scenario3-rsu-spoofing/emergency/ebrake_attack_14014.csv
+	new:                scenarios/scenario3-rsu-spoofing/collision/coll_base_10333.csv
+9 files pushed
+🔁 Sync started at Mon Jun 30 06:03:15 PM BST 2025
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/data/data_base_10333.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/data/data_base_14014.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/data/data_attack_14014.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/data/data_attack_10333.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/emergency/ebrake_attack_14014.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/emergency/ebrake_attack_10333.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/emergency/ebrake_base_14014.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/emergency/ebrake_base_10333.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/collision/coll_attack_14014.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/collision/coll_base_14014.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/collision/coll_base_10333.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/collision/coll_attack_10333.csv
