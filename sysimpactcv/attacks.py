@@ -245,3 +245,37 @@ def set_target_speed(
 
         # enforce an upper bound so they don’t overshoot
         traci.vehicle.setMaxSpeed(vid, target_speed_mps)
+
+def vsl_laneclosure(
+    state,
+    *,
+    vsl_sched,          # list[(t0,t1,speed_mph), …]
+    lane_close_t,       # time (s) to start closure
+    zone,               # (min_m, max_m) where VSL applies
+    **lc_kwargs         # forwarded to existing lane_closure()
+):
+    """Combined VSL schedule + lane-closure attack."""
+    cur_t = traci.simulation.getTime()
+
+    # 1) VARIABLE SPEED LIMIT --------------------------------
+    vids = [
+        vid for vid in traci.vehicle.getIDList()
+        if "CAV" in traci.vehicle.getTypeID(vid)
+           and zone[0] < traci.vehicle.getLanePosition(vid) < zone[1]
+    ]
+    for t0, t1, mph in vsl_sched:
+        if t0 < cur_t <= t1:
+            _vsl_step(vids, mph)
+
+    # 2) LANE CLOSURE ----------------------------------------
+    if cur_t >= lane_close_t:
+        lane_closure(state, **lc_kwargs)
+
+
+# ────────────────────────────────────────────────────────────
+def _vsl_step(vehicle_ids, target_mph):
+    """Internal helper: set max-speed of given vehicles to target_mph."""
+    target = target_mph * 0.44704          # mph → m/s
+    for vid in vehicle_ids:
+        traci.vehicle.setMaxSpeed(vid, target)
+# ────────────────────────────────────────────────────────────

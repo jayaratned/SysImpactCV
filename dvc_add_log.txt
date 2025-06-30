@@ -1,2 +1,8 @@
 🔁 Sync started at Mon Jun 30 10:32:46 AM BST 2025
 🔁 Sync started at Mon Jun 30 10:34:03 AM BST 2025
+There are no data or pipelines tracked in this project yet.
+See <https://dvc.org/doc/start> to get started!
+ERROR: unexpected error - gdrive is supported, but requires 'dvc-gdrive' to be installed: No module named 'dvc_gdrive'
+
+Having any troubles? Hit us up at https://dvc.org/support, we are always happy to help!
+🔁 Sync started at Mon Jun 30 12:16:30 PM BST 2025
