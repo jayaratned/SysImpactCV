@@ -24,3 +24,117 @@ ERROR: unexpected error - gdrive is supported, but requires 'dvc-gdrive' to be i
 
 Having any troubles? Hit us up at https://dvc.org/support, we are always happy to help!
 🔁 Sync started at Mon Jun 30 05:33:23 PM BST 2025
+There are no data or pipelines tracked in this project yet.
+See <https://dvc.org/doc/start> to get started!
+ERROR: unexpected error - gdrive is supported, but requires 'dvc-gdrive' to be installed: No module named 'dvc_gdrive'
+
+Having any troubles? Hit us up at https://dvc.org/support, we are always happy to help!
+🔁 Sync started at Mon Jun 30 06:02:13 PM BST 2025
+📦 Adding: scenarios/scenario3-rsu-spoofing/data/data_base_10333.csv
+
+To track the changes with git, run:
+
+	git add scenarios/scenario3-rsu-spoofing/data/data_base_10333.csv.dvc scenarios/scenario3-rsu-spoofing/data/.gitignore
+
+To enable auto staging, run:
+
+	dvc config core.autostage true
+📦 Adding: scenarios/scenario3-rsu-spoofing/data/data_base_14014.csv
+
+To track the changes with git, run:
+
+	git add scenarios/scenario3-rsu-spoofing/data/.gitignore scenarios/scenario3-rsu-spoofing/data/data_base_14014.csv.dvc
+
+To enable auto staging, run:
+
+	dvc config core.autostage true
+📦 Adding: scenarios/scenario3-rsu-spoofing/data/data_attack_14014.csv
+
+To track the changes with git, run:
+
+	git add scenarios/scenario3-rsu-spoofing/data/data_attack_14014.csv.dvc scenarios/scenario3-rsu-spoofing/data/.gitignore
+
+To enable auto staging, run:
+
+	dvc config core.autostage true
+📦 Adding: scenarios/scenario3-rsu-spoofing/data/data_attack_10333.csv
+
+To track the changes with git, run:
+
+	git add scenarios/scenario3-rsu-spoofing/data/.gitignore scenarios/scenario3-rsu-spoofing/data/data_attack_10333.csv.dvc
+
+To enable auto staging, run:
+
+	dvc config core.autostage true
+📦 Adding: scenarios/scenario3-rsu-spoofing/emergency/ebrake_attack_14014.csv
+
+To track the changes with git, run:
+
+	git add scenarios/scenario3-rsu-spoofing/emergency/ebrake_attack_14014.csv.dvc scenarios/scenario3-rsu-spoofing/emergency/.gitignore
+
+To enable auto staging, run:
+
+	dvc config core.autostage true
+📦 Adding: scenarios/scenario3-rsu-spoofing/emergency/ebrake_attack_10333.csv
+
+To track the changes with git, run:
+
+	git add scenarios/scenario3-rsu-spoofing/emergency/ebrake_attack_10333.csv.dvc scenarios/scenario3-rsu-spoofing/emergency/.gitignore
+
+To enable auto staging, run:
+
+	dvc config core.autostage true
+📦 Adding: scenarios/scenario3-rsu-spoofing/emergency/ebrake_base_14014.csv
+
+To track the changes with git, run:
+
+	git add scenarios/scenario3-rsu-spoofing/emergency/.gitignore scenarios/scenario3-rsu-spoofing/emergency/ebrake_base_14014.csv.dvc
+
+To enable auto staging, run:
+
+	dvc config core.autostage true
+📦 Adding: scenarios/scenario3-rsu-spoofing/emergency/ebrake_base_10333.csv
+
+To track the changes with git, run:
+
+	git add scenarios/scenario3-rsu-spoofing/emergency/ebrake_base_10333.csv.dvc scenarios/scenario3-rsu-spoofing/emergency/.gitignore
+
+To enable auto staging, run:
+
+	dvc config core.autostage true
+📦 Adding: scenarios/scenario3-rsu-spoofing/collision/coll_attack_14014.csv
+
+To track the changes with git, run:
+
+	git add scenarios/scenario3-rsu-spoofing/collision/.gitignore scenarios/scenario3-rsu-spoofing/collision/coll_attack_14014.csv.dvc
+
+To enable auto staging, run:
+
+	dvc config core.autostage true
+📦 Adding: scenarios/scenario3-rsu-spoofing/collision/coll_base_14014.csv
+
+To track the changes with git, run:
+
+	git add scenarios/scenario3-rsu-spoofing/collision/.gitignore scenarios/scenario3-rsu-spoofing/collision/coll_base_14014.csv.dvc
+
+To enable auto staging, run:
+
+	dvc config core.autostage true
+📦 Adding: scenarios/scenario3-rsu-spoofing/collision/coll_base_10333.csv
+
+To track the changes with git, run:
+
+	git add scenarios/scenario3-rsu-spoofing/collision/coll_base_10333.csv.dvc scenarios/scenario3-rsu-spoofing/collision/.gitignore
+
+To enable auto staging, run:
+
+	dvc config core.autostage true
+📦 Adding: scenarios/scenario3-rsu-spoofing/collision/coll_attack_10333.csv
+
+To track the changes with git, run:
+
+	git add scenarios/scenario3-rsu-spoofing/collision/.gitignore scenarios/scenario3-rsu-spoofing/collision/coll_attack_10333.csv.dvc
+
+To enable auto staging, run:
+
+	dvc config core.autostage true
