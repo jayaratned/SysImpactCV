@@ -22,7 +22,7 @@ ATTACK_FN = {
     "emergency_brake": emergency_brake,
     "rear_end":        rear_end_collision,
     "lane_closure":    lane_closure,
-    "scenario3":    rsu_spoofing,
+    "scenario3-rsu-spoofing":    rsu_spoofing,
     # add new attack: "my_new_attack": my_new_attack_fn
 }
 
