@@ -18,3 +18,9 @@ ERROR: unexpected error - gdrive is supported, but requires 'dvc-gdrive' to be i
 
 Having any troubles? Hit us up at https://dvc.org/support, we are always happy to help!
 🔁 Sync started at Mon Jun 30 05:24:09 PM BST 2025
+There are no data or pipelines tracked in this project yet.
+See <https://dvc.org/doc/start> to get started!
+ERROR: unexpected error - gdrive is supported, but requires 'dvc-gdrive' to be installed: No module named 'dvc_gdrive'
+
+Having any troubles? Hit us up at https://dvc.org/support, we are always happy to help!
+🔁 Sync started at Mon Jun 30 05:33:23 PM BST 2025
