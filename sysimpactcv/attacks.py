@@ -1,4 +1,4 @@
-# attack-effect module
+# attacks.py
 import random
 import traci
 
@@ -246,7 +246,7 @@ def set_target_speed(
         # enforce an upper bound so they don’t overshoot
         traci.vehicle.setMaxSpeed(vid, target_speed_mps)
 
-def vsl_laneclosure(
+def rsu_spoofing(
     state,
     *,
     vsl_sched,          # list[(t0,t1,speed_mph), …]

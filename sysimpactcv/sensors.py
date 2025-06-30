@@ -1,4 +1,4 @@
-
+# sysimpactcv/sensors.py
 import xml.etree.ElementTree as ET
 
 def load_detectors(add_xml_path):
