@@ -82,7 +82,7 @@
     │       ├─ *.sumocfg, *.net.xml, *.rou.xml, *.add.xml
     │       ├─ data/           # CSVs for detector outputs
     │       ├─ emergency/      # CSVs for emergency brake events
-    │       └─ collision/      # CSVs for rear-end collisions
+    │       └─ collision/      # CSVs for collisions
     │       └─ e1/             # auto-generated per-seed detector outputs              
     └─ sysimpactcv/            # Python package
         ├─ __init__.py

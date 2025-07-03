@@ -2,7 +2,7 @@
 import random
 import traci
 
-def emergency_brake(state, vehicle_id, stop_position):
+def emergency_brake(state, vehicle_id, stop_position, emergency_deceleration):
     """
     Emergency brake attack:
       - Monitors the specified vehicle_id.
@@ -23,12 +23,11 @@ def emergency_brake(state, vehicle_id, stop_position):
         if pos >= stop_position:
             traci.vehicle.setSpeedMode(vehicle_id, 0)
             traci.vehicle.setLaneChangeMode(vehicle_id, 0)
-            traci.vehicle.setSpeed(vehicle_id, 0.0)
+            time_to_stop = traci.vehicle.getSpeed('ego') / abs(emergency_deceleration)
+            # Apply emergency brake
+            traci.vehicle.slowDown(vehicle_id, 0.0, time_to_stop)
             state['attack_success'] = True
             print(f"[attack] Emergency brake applied to {vehicle_id} at {pos:.2f} m")
-    else:
-        # Vehicle left the sim before braking
-        state['attack_success'] = True
 
 def rear_end_collision(
     state,
