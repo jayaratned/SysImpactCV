@@ -189,3 +189,16 @@ Everything is up to date.
 ⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/collision/coll_base_14014.csv
 ⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/collision/coll_base_10333.csv
 ⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/collision/coll_attack_10333.csv
+🔁 Sync started at Thu Jul  3 04:10:28 PM BST 2025
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/data/data_base_10333.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/data/data_base_14014.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/data/data_attack_14014.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/data/data_attack_10333.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/emergency/ebrake_attack_14014.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/emergency/ebrake_attack_10333.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/emergency/ebrake_base_14014.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/emergency/ebrake_base_10333.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/collision/coll_attack_14014.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/collision/coll_base_14014.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/collision/coll_base_10333.csv
+⏩ Skipping (already tracked): scenarios/scenario3-rsu-spoofing/collision/coll_attack_10333.csv
